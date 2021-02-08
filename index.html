@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="main.js"></script>
+    <title>Snop</title>
+</head>
+<body onload="load()">
+    <div class="all">
+    <img class="snop" src="Snop.png">
+
+    <div class="main-container">
+        <h2 class="ämne">Ämnen:</h2>
+        <ul id="show">
+            <li><button onclick="showSve()" class="ämne-button" id="svenska-button">Svenska &#8595; </button></li>
+            <section id="svenska-show">
+                <li class="svenska-drop"><a href="http://www.diva-portal.org/smash/search.jsf?dswid=9427">Diva Portal</a></li>
+            </section>
+            <li><button onclick="showEng()" class="ämne-button" id="engelska-button">Engelska &#8595;</button></li>
+            <section id="engelska-show">
+                <li class="engelska-drop"><a href="https://1lib.eu/">Zlibrary</a></li>
+                <li class="engelska-drop"><a href="https://www.cliffsnotes.com/">Cliffnotes</a></li>
+                <li class="engelska-drop"><a href="https://www.sparknotes.com/">Sparknotes</a></li>
+            </section>
+            <li><button onclick="showMat()" class="ämne-button" id="matte-button">Matte &#8595;</button></li>
+        <section id="matte-show">
+            <li class="matte-drop"><a href="https://www.desmos.com/calculator?lang=sv-SE">Desmos</a></li>
+        </section>
+        </ul>
+        <ul>
+        <li><button class="ämne-button">Fysik [fungerar ej atm]</button></li>
+        </ul>    
+    </div>
+
+    
+    <div class="estet-container">
+    </div>
+
+    <div class="teknik / natur container">
+
+
+
+    </div>
+    <div class="info">
+        <h3 class="samlingHeader">Länksamling:</h3>
+        <ul>
+            <li class="light" id="samlingTop"><a href="https://1lib.eu/">Zlibrary</a> - Textböcker - [Engelska]</li>
+            <li class="dark"><a href="https://www.cliffsnotes.com/">Cliffnotes</a> - svarar på frågor som kan användas i uppsatser om böcker och skit, sammanfattar och analyserar böcker - [Engelska]</li>
+            <li class="light"><a href="http://www.diva-portal.org/smash/search.jsf?dswid=9427">Diva-portal</a> - gratis avhandlingar, artiklar och uppsatser (även C-uppsatser) - [Svenska]</li>
+            <li class="dark"><a href="https://www.sparknotes.com/">Sparknotes </a>- tillgång till vissa noveller helt gratis, svarar på key questions om böcker, sammanfattar och analyserar böcker, har även en del hjälp inom poesi - [Engelska]</li>
+            <li class="light"><a href="https://www.desmos.com/calculator?lang=sv-SE">Desmos </a>- Grafräknare - [Matematik / Fysik]</li>
+        </ul>
+    </div>
+
+</div>
+
+
+<footer id="footer">    
+    <a href="#" class = "footerLinks1">Gå till toppen av sidan</a>
+    <div class="color">
+    <p href="#" class = "footerLinks2">Kontakta mig: isak.anderson9@gmail.com</p>
+    <p id="cr">Copyright © 2021 by Isak Anderson</p>
+</div>
+</footer>  
+
+
+
+</body>
+</html>
